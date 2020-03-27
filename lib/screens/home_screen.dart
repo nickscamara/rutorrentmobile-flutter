@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
           listStats("Download", .45, "9gb", "March 27th"),
           listStats("Upload", .45, "3gb", "March 27th"),
           subTitle('Trackers'),
-          listStatsFull("Average Speed", .45, "150 MB/s", "\t0.0KB/s",0),
+          listStatsFull("Average Speed", .75, "150 MB/s", "\t0.0KB/s",0),
           subTitle('Peers'),
           listStatsFull("Peers", .45, "150 MB/s", "\t0.0KB/s",0),
           // _buildCardItem(text: "Active(%)", pcentText: "95%", percent: .95),

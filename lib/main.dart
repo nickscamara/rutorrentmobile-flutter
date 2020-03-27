@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: darkTheme, // Custom theme defined by custom_theme.dart -> switch between light/dark mode
+      theme: customTheme, // Custom theme defined by custom_theme.dart -> switch between light/dark mode
       home: Home(),    // Main App Home
     );
   }

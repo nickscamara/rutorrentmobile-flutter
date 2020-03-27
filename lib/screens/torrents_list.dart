@@ -58,7 +58,12 @@ class TorrentListScreen extends StatelessWidget {
             ),
             subtitle: Padding(
               padding: const EdgeInsets.only(left: 30.0),
-              child: Text(torrent.size),
+              child: Row(
+                children: <Widget>[
+                  Text((double.parse(torrent.size.split(".")[0]) *torrent.downloadingPercentage).toString()+"/"+torrent.size),
+                  !torrent.done && !torrent.paused ? Text(" - 75 MB/s") : Container()
+                ],
+              ),
             ),
             // subtitle: Padding(
             //   padding: const EdgeInsets.only(left:25.0),
