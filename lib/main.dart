@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: customTheme, // Custom theme defined by custom_theme.dart -> switch between light/dark mode
       home: Home(),    // Main App Home
