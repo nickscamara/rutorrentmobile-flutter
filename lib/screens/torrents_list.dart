@@ -1,10 +1,8 @@
-import 'package:clay_containers/widgets/clay_containers.dart';
 import 'package:flutter/material.dart';
 import 'package:gradient_widgets/gradient_widgets.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:rutorrentmobile/model/torrent.dart';
-import 'package:shimmer/shimmer.dart';
 
 class TorrentListScreen extends StatelessWidget {
   const TorrentListScreen({Key key}) : super(key: key);
