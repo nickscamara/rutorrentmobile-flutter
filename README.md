@@ -1,4 +1,4 @@
-# Rutorrent Flutter App
+# ruTorrent Flutter App
 Made by Nicolas S Camara for Google Summer of Code application
 
 ## Proposal
